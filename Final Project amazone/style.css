@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("cuamazonelogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    font-size: 1rem;
+    margin: 3px;
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    background-color:#febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops{
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-ops p{
+    margin-left: 15px;
+    font-weight: 545;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section {
+    background-image: url("Hero\ Image.jpg"); /* ✅ Make sure filename is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-message a{
+    text-decoration: none;
+    color: #007185;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem 0;
+    border-radius: 12px;               
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+.box-image:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); 
+}
+
+.box a{
+    text-decoration: none;
+    color: #007185;
+}
+.box-content{
+    margin-left:1rem ;
+    margin-right:1rem;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel-1{
+    background-color:#37475a ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-panel-1 a{
+    text-transform: none;
+    color: black;
+}
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;  
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel-2 ul a{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+.foot-panel-2 ul{
+    margin-top: 20px;
+}
+.foot-panel-3{
+    height: 70px;
+    background-color:#222f3d ;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    background-image: url("cuamazonelogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel-4{
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+        font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+
+}
+.pages a{
+margin-right: 10px;
+}
+.copyright{
+margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: auto;
+    height: auto;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo,
+  .nav-address,
+  .nav-sign-in,
+  .nav-return {
+    display: none; 
+  }
+
+  .nav-search {
+    flex: 1;
+    max-width: 70%;
+    height: 35px;
+    margin: 0 10px;
+  }
+
+  .nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+
+  .panel {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.panel-ops {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  gap: 15px;
+  padding: 5px 0;
+  scrollbar-width: none; 
+}
+
+.panel-ops::-webkit-scrollbar {
+  display: none; 
+}
+
+.panel-ops p {
+  white-space: nowrap;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.panel-deals {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    width: 45%; 
+    margin: 10px 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+
+
+.foot-panel-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    height: auto;
+}
+
+.foot-panel-2 ul {
+    width: 45%;
+    min-width: 150px;
+}
+
+}
